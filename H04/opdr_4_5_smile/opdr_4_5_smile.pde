@@ -1,0 +1,12 @@
+size(700,700);
+strokeWeight(7);
+int x =350;
+int y = 280;
+int w = 60;
+int h = 60;
+ellipse(x,y+70,w+450,h+490);
+ellipse(x-120,y,w,h);
+ellipse(x+130,y,w,h);
+arc(x,y+220,w,h,0,PI);
+arc(x-125,y-35,w,h,PI, 2*PI);
+arc(x+125,y-35,w,h,PI, 2*PI);
